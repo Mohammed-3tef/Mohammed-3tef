@@ -60,6 +60,7 @@
 <div align="left" style="display: flex; gap: .5rem">
   <img src="https://skillicons.dev/icons?i=cpp" height="40" alt="cplusplus logo"  />
   <img src="https://raw.githubusercontent.com/tandpfun/skill-icons/main/icons/Python-Dark.svg" height="40" alt="python logo"  />
+  <img src="https://raw.githubusercontent.com/tandpfun/skill-icons/65dea6c4eaca7da319e552c09f4cf5a9a8dab2c8/icons/QT-Dark.svg" height="40" alt="qt logo"  />
 </div>
 
 <h3 align="left">
@@ -67,7 +68,6 @@
 </h3>
 
 <div align="left" style="display: flex; gap: .5rem">
-  <img src="https://raw.githubusercontent.com/tandpfun/skill-icons/main/icons/WebStorm-Dark.svg" height="40" alt="jetbrains logo"  />
   <img src="https://raw.githubusercontent.com/tandpfun/skill-icons/main/icons/Git.svg" height="40" alt="git logo"  />
   <img src="https://raw.githubusercontent.com/tandpfun/skill-icons/main/icons/Github-Dark.svg" height="40" alt="github logo"  />
   <img src="https://raw.githubusercontent.com/tandpfun/skill-icons/main/icons/Vercel-Dark.svg" alt="Vercel" width="40" height="40" />
