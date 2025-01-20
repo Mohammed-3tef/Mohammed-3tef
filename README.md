@@ -125,7 +125,12 @@
 
 &nbsp;<div align="center">
   [![Toffi1143's LeetCode Stats](https://leetcode-stats.vercel.app/api?username=Toffi1143&theme=Dark)](https://github.com/JeremyTsaii/leetcode-stats)
-  [![Spotify](https://novatorem.bgstatic.vercel.app/api/spotify)](https://open.spotify.com/user/31rfmkvekawax4qpd4p3vnr7qieu)
+</div>
+  
+<div align="center">
+  <a href="https://open.spotify.com/user/31rfmkvekawax4qpd4p3vnr7qieu">
+    <img src="https://spotify-recently-played-readme.vercel.app/api?user=31rfmkvekawax4qpd4p3vnr7qieu&count=2&unique=true" alt="Spotify recently played"  />
+  </a>
 </div>
 
 ###
