@@ -58,7 +58,8 @@
 
 
 <div align="left" style="display: flex; gap: .5rem">
-  <img src="https://skillicons.dev/icons?i=cpp" height="40" alt="cplusplus logo"  />
+  <img src="https://skillicons.dev/icons?i=cpp" height="40" alt="cplusplus logo"/>
+  <img src="https://raw.githubusercontent.com/tandpfun/skill-icons/65dea6c4eaca7da319e552c09f4cf5a9a8dab2c8/icons/Java-Dark.svg" height="40" alt="java logo"/>
   <img src="https://raw.githubusercontent.com/tandpfun/skill-icons/main/icons/Python-Dark.svg" height="40" alt="python logo"  />
   <img src="https://raw.githubusercontent.com/tandpfun/skill-icons/65dea6c4eaca7da319e552c09f4cf5a9a8dab2c8/icons/QT-Dark.svg" height="40" alt="qt logo"  />
 </div>
