@@ -8,10 +8,17 @@
 
 ###
 
-<div align="center">
+<div>
     <img align="right" height="170" src="https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExdHZzNzNub3NvdGFkNzV1OTRpZnI2bmpiazRqdG42bTd3NjVxZXBsNyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/qgQUggAC3Pfv687qPC/giphy.gif"  />
-    <p align="left">--> I’m currently learning in FCAI-CU 🌱<br>--> A Future Software Engineer 👨‍💻<br>--> Fun fact: I love reading 📖</p>
-    <br><br>
+    <div>
+I’m a student at <strong>FCAI-CU</strong> and a <strong>Future Software Engineer</strong> 👨‍💻  
+
+An aspiring **Full Stack .NET Developer** with a strong interest in building scalable and user-friendly web applications.
+
+I have hands-on experience with: **C# & ASP.NET MVC**, **Microsoft SQL Server**, **HTML, CSS, and JavaScript**
+
+I’m passionate about writing clean code, learning new technologies, and collaborating within agile development teams to turn ideas into real-world solutions.
+    </div>
 </div>
 
 ###
@@ -27,38 +34,30 @@
 <div align="left" style="display: flex; gap: .5rem">
   <img src="https://skillicons.dev/icons?i=html" height="40" alt="html5 logo"  />
   <img src="https://skillicons.dev/icons?i=css" height="40" alt="css3 logo"  />
-  <img src="https://raw.githubusercontent.com/tandpfun/skill-icons/main/icons/TailwindCSS-Dark.svg" height="40" alt="react logo"  />
+  <img src="https://raw.githubusercontent.com/tandpfun/skill-icons/main/icons/TailwindCSS-Dark.svg" height="40" alt="tailwind logo"  />
+  <img src="https://github.com/tandpfun/skill-icons/blob/main/icons/Bootstrap.svg" height="40" alt="bootstrap logo"  />
   <img src="https://skillicons.dev/icons?i=js" height="40" alt="javascript logo"  />
   <img src="https://skillicons.dev/icons?i=jquery" height="40" alt="jquery logo"  />
   <img src="https://skillicons.dev/icons?i=react" height="40" alt="react logo"  />
-<!--   <img src="https://raw.githubusercontent.com/tandpfun/skill-icons/main/icons/Redux.svg" height="40" alt="redux logo"  />
-  <img src="https://skillicons.dev/icons?i=vite" height="40" alt="vite logo"  /> -->
 </div>
 
-<!-- <h3 align="left">
+<h3 align="left">
      Backend Development: 
-</h3> -->
+</h3>
 
-<!-- <div align="left" style="display: flex; gap: .5rem"> -->
-<!--   <img src="https://raw.githubusercontent.com/tandpfun/skill-icons/main/icons/NodeJS-Dark.svg" height="40" alt="nodejs logo"  /> -->
-<!--   <img src="https://raw.githubusercontent.com/tandpfun/skill-icons/main/icons/Firebase-Dark.svg" height="40" alt="firebase logo" /> -->
-<!--   <img src="https://raw.githubusercontent.com/tandpfun/skill-icons/main/icons/Supabase-Dark.svg" alt="Supabase" width="40" height="40" /> -->
-<!--   <img src="https://raw.githubusercontent.com/tandpfun/skill-icons/main/icons/Flask-Dark.svg" height="40" alt="nodejs logo"  /> -->
-<!--   <img src="https://skillicons.dev/icons?i=express" height="40" alt="express logo"  /> -->
-<!--   <img src="https://raw.githubusercontent.com/tandpfun/skill-icons/main/icons/MongoDB.svg" height="40" alt="mongodb logo"  /> -->
-<!--   <img src="https://raw.githubusercontent.com/tandpfun/skill-icons/main/icons/SQLite.svg" height="40" alt="sqlite logo"  /> -->
-<!--   <img src="https://raw.githubusercontent.com/tandpfun/skill-icons/main/icons/MySQL-Dark.svg" height="40" alt="mysql logo"  /> -->
-<!--   <img src="https://raw.githubusercontent.com/tandpfun/skill-icons/main/icons/Prisma.svg" height="40" alt="python logo"  /> -->
-<!--   <img src="https://raw.githubusercontent.com/tandpfun/skill-icons/main/icons/PostgreSQL-Dark.svg" height="40" alt="python logo"  /> -->
-<!-- </div> -->
+<div align="left" style="display: flex; gap: .5rem">
+  <img src="https://github.com/tandpfun/skill-icons/blob/main/icons/DotNet.svg" height="40" alt="dotnet logo"  />
+  <img src="https://raw.githubusercontent.com/tandpfun/skill-icons/main/icons/SQLite.svg" height="40" alt="sqlite logo"  />
+  <img src="https://github.com/tandpfun/skill-icons/blob/main/icons/FastAPI.svg" height="40" alt="fast api logo"  />
+</div>
 
 <h3 align="left">
     Programming Languages:
 </h3>
 
-
 <div align="left" style="display: flex; gap: .5rem">
   <img src="https://skillicons.dev/icons?i=cpp" height="40" alt="cplusplus logo"/>
+  <img src="https://github.com/tandpfun/skill-icons/blob/main/icons/CS.svg" height="40" alt="c sharp"/>
   <img src="https://raw.githubusercontent.com/tandpfun/skill-icons/65dea6c4eaca7da319e552c09f4cf5a9a8dab2c8/icons/Java-Dark.svg" height="40" alt="java logo"/>
   <img src="https://raw.githubusercontent.com/tandpfun/skill-icons/main/icons/Python-Dark.svg" height="40" alt="python logo"  />
   <img src="https://raw.githubusercontent.com/tandpfun/skill-icons/65dea6c4eaca7da319e552c09f4cf5a9a8dab2c8/icons/QT-Dark.svg" height="40" alt="qt logo"  />
@@ -69,14 +68,13 @@
 </h3>
 
 <div align="left" style="display: flex; gap: .5rem">
+  <img src="https://github.com/tandpfun/skill-icons/blob/main/icons/VisualStudio-Dark.svg" height="40" alt="vs code community logo"  />
   <img src="https://raw.githubusercontent.com/tandpfun/skill-icons/main/icons/Git.svg" height="40" alt="git logo"  />
   <img src="https://raw.githubusercontent.com/tandpfun/skill-icons/main/icons/Github-Dark.svg" height="40" alt="github logo"  />
   <img src="https://raw.githubusercontent.com/tandpfun/skill-icons/main/icons/Vercel-Dark.svg" alt="Vercel" width="40" height="40" />
 </div>
 
 ###
-
-<br clear="both">
 
 <h2 align="left">Connect With Me :-</h2>
 
@@ -105,13 +103,9 @@
 
 ###
 
-<br clear="both">
-
 <h2 align="left">My Status :-</h2>
 
 ###
-
-<br clear="both">
 
 <div align="center">
     <img src="https://streak-stats.demolab.com?user=Mohammed-3tef&locale=en&mode=daily&theme=dracula&hide_border=true&border_radius=5&order=3" height="180" alt="streak graph" /> <br>
