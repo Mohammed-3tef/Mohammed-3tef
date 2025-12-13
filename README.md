@@ -122,12 +122,6 @@
 
 ###
 
-&nbsp;<div align="center">
-  [![Toffi1143's LeetCode Stats](https://leetcode-stats.vercel.app/api?username=Toffi1143&theme=Dark)](https://github.com/JeremyTsaii/leetcode-stats)
-</div>
-
-###
-
 <div align="center">
   <img height="380" src="https://user-images.githubusercontent.com/74038190/213910845-af37a709-8995-40d6-be59-724526e3c3d7.gif"  />
 </div>
