@@ -81,7 +81,7 @@ I’m passionate about writing clean code, learning new technologies, and collab
 ###
 
 <div align="left">
-  <a href="mailto:mohamed45452020@gmail.com" target="_blank" style="text-decoration: none;">
+  <a href="mailto:mohammed.atef.abdelkader@gmail.com" target="_blank" style="text-decoration: none;">
     <img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/gmail/default.svg" width="55" height="40" alt="gmail logo"  />
   </a>
   <a href="https://codeforces.com/profile/muhammed_atef" target="_blank" style="text-decoration: none;">
