@@ -4,7 +4,7 @@
 
 ###
 
-<h2 align="left">About Me :-</h2>
+<h2 align="left">About Me:-</h2>
 
 ###
 
@@ -23,13 +23,9 @@ I’m passionate about writing clean code, learning new technologies, and collab
 
 ###
 
-<h2 align="left">My Languages :-</h2>
+<h2 align="left">Tech Stack:-</h2>
 
 ###
-
-<h3 align="left">
-    Frontend Development:
-</h3>
 
 <div align="left" style="display: flex; gap: .5rem">
   <img src="https://skillicons.dev/icons?i=html" height="40" alt="html5 logo"  />
@@ -39,71 +35,34 @@ I’m passionate about writing clean code, learning new technologies, and collab
   <img src="https://skillicons.dev/icons?i=js" height="40" alt="javascript logo"  />
   <img src="https://skillicons.dev/icons?i=jquery" height="40" alt="jquery logo"  />
   <img src="https://skillicons.dev/icons?i=react" height="40" alt="react logo"  />
-</div>
-
-<h3 align="left">
-     Backend Development: 
-</h3>
-
-<div align="left" style="display: flex; gap: .5rem">
   <img src="https://github.com/tandpfun/skill-icons/blob/main/icons/DotNet.svg" height="40" alt="dotnet logo"  />
+  <img src="https://github.com/tandpfun/skill-icons/blob/main/icons/MySQL-Dark.svg" height="40" alt="mysql logo"  />
   <img src="https://raw.githubusercontent.com/tandpfun/skill-icons/main/icons/SQLite.svg" height="40" alt="sqlite logo"  />
   <img src="https://github.com/tandpfun/skill-icons/blob/main/icons/FastAPI.svg" height="40" alt="fast api logo"  />
-</div>
-
-<h3 align="left">
-    Programming Languages:
-</h3>
-
-<div align="left" style="display: flex; gap: .5rem">
   <img src="https://skillicons.dev/icons?i=cpp" height="40" alt="cplusplus logo"/>
   <img src="https://github.com/tandpfun/skill-icons/blob/main/icons/CS.svg" height="40" alt="c sharp"/>
   <img src="https://raw.githubusercontent.com/tandpfun/skill-icons/65dea6c4eaca7da319e552c09f4cf5a9a8dab2c8/icons/Java-Dark.svg" height="40" alt="java logo"/>
   <img src="https://raw.githubusercontent.com/tandpfun/skill-icons/main/icons/Python-Dark.svg" height="40" alt="python logo"  />
-  <img src="https://raw.githubusercontent.com/tandpfun/skill-icons/65dea6c4eaca7da319e552c09f4cf5a9a8dab2c8/icons/QT-Dark.svg" height="40" alt="qt logo"  />
-</div>
-
-<h3 align="left">
-    Tools & Utilities:
-</h3>
-
-<div align="left" style="display: flex; gap: .5rem">
   <img src="https://github.com/tandpfun/skill-icons/blob/main/icons/VisualStudio-Dark.svg" height="40" alt="vs code community logo"  />
-  <img src="https://raw.githubusercontent.com/tandpfun/skill-icons/main/icons/Git.svg" height="40" alt="git logo"  />
-  <img src="https://raw.githubusercontent.com/tandpfun/skill-icons/main/icons/Github-Dark.svg" height="40" alt="github logo"  />
-  <img src="https://raw.githubusercontent.com/tandpfun/skill-icons/main/icons/Vercel-Dark.svg" alt="Vercel" width="40" height="40" />
+  <img src="https://github.com/tandpfun/skill-icons/blob/main/icons/VSCode-Dark.svg" height="40" alt="vs code logo"  />
+  <img src="https://raw.githubusercontent.com/tandpfun/skill-icons/main/icons/Git.svg" height="40" alt="git logo" />
+  <img src="https://raw.githubusercontent.com/tandpfun/skill-icons/main/icons/Github-Dark.svg" height="40" alt="github logo" />
+  <img src="https://raw.githubusercontent.com/tandpfun/skill-icons/main/icons/Vercel-Dark.svg" alt="Vercel" height="40" />
+  <img src="https://github.com/tandpfun/skill-icons/blob/main/icons/Markdown-Dark.svg" alt="Markdown" height="40" />
+  <img src="https://github.com/tandpfun/skill-icons/blob/main/icons/Postman.svg" alt="Postman" height="40" />
 </div>
 
 ###
 
-<h2 align="left">Connect With Me :-</h2>
+<h2 align="left">Connect With Me:-</h2>
 
 ###
 
-<div align="left">
-  <a href="mailto:mohammed.atef.abdelkader@gmail.com" target="_blank" style="text-decoration: none;">
-    <img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/gmail/default.svg" width="55" height="40" alt="gmail logo"  />
-  </a>
-  <a href="https://codeforces.com/profile/muhammed_atef" target="_blank" style="text-decoration: none;">
-    <img src="https://art.npanuhin.me/SVG/Codeforces/Codeforces.colored.svg" width="65" height="50" alt="muhammed_atef" />
-  </a>
-    <a href="https://www.facebook.com/profile.php?id=100020148558351" target="_blank" style="text-decoration: none;">
-    <img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/facebook/default.svg" width="50" height="40" alt="facebook logo"  />
-  </a>
-  <a href="https://www.instagram.com/muhammed_3tef/" target="_blank" style="text-decoration: none;">
-    <img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/instagram/default.svg" width="50" height="40" alt="instagram logo"  />
-  </a>
-  <a href="https://www.linkedin.com/in/mohammed-atef-abd-elkader/" target="_blank" style="text-decoration: none;">
-    <img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/linkedin/default.svg" width="50" height="40" alt="linkedin logo"  />
-  </a>
-  <a href="https://t.me/Mohammed_Atef_1143" target="_blank" style="text-decoration: none;">
-    <img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/telegram/default.svg" width="50" height="40" alt="telegram logo"  />
-  </a>
-</div>
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/mohammed-atef-abd-elkader/) [![email](https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white)](mailto:mohammed.atef.abdelkader@gmail.com) [![MyPortfolio](https://img.shields.io/badge/My%20Portfolio-AA1BFF.svg)](https://mohammedatefportfolio.vercel.app/) [![Facebook](https://img.shields.io/badge/Facebook-0766FF.svg?logo=Facebook&logoColor=white)](https://www.facebook.com/profile.php?id=100020148558351) [![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?logo=Instagram&logoColor=white)](https://www.instagram.com/muhammed_3tef/) 
 
 ###
 
-<h2 align="left">My Status :-</h2>
+<h2 align="left">My Status:-</h2>
 
 ###
 
