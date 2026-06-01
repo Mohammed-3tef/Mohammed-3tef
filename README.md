@@ -67,10 +67,8 @@ I’m passionate about writing clean code, learning new technologies, and collab
 ###
 
 <div align="center">
-    <img src="https://streak-stats.demolab.com?user=Mohammed-3tef&locale=en&mode=daily&theme=dracula&hide_border=true&border_radius=5&order=3" height="180" alt="streak graph" /> <br>
-    <img src="https://github-readme-stats.vercel.app/api/top-langs?username=Mohammed-3tef&locale=en&hide_title=false&layout=compact&card_width=385&langs_count=18&theme=dracula&hide_border=true&order=5" height="180" alt="languages graph" />
-  <img src="https://github-readme-stats.vercel.app/api?username=Mohammed-3tef&hide_title=false&hide_rank=false&show_icons=true&include_all_commits=true&count_private=true&disable_animations=false&theme=dracula&locale=en&hide_border=true&order=1" height="180" alt="stats graph" /> <br>
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Mohammed-3tef&radius=16&theme=react&area=true&order=5&hide_border=true" height="300" alt="activity-graph graph"  />
+    <img src="https://streak-stats.demolab.com?user=Mohammed-3tef&locale=en&mode=daily&theme=dracula&hide_border=true&border_radius=5&order=3" height="350" alt="streak graph" /> <br>
+    <img src="https://github-readme-activity-graph.vercel.app/graph?username=Mohammed-3tef&radius=16&theme=react&area=true&order=5&hide_border=true" height="300" alt="activity-graph graph"  />
 </div>
 
 ###
@@ -78,11 +76,3 @@ I’m passionate about writing clean code, learning new technologies, and collab
 <div align="center">
   <img height="380" src="https://user-images.githubusercontent.com/74038190/213910845-af37a709-8995-40d6-be59-724526e3c3d7.gif"  />
 </div>
-
-###
-
-<div align="center">
-  <img src="https://profile-counter.glitch.me/Mohammed-3tef/count.svg?"/>
-</div>
-
-###
