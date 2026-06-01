@@ -18,7 +18,7 @@ jobs:
 
         with:
           goodreads_user_id: "121646211"
-          shelf: "programming"
+          shelf: programming
           max_books_count: 10
           readme_file_path: "./README.md"
           output_only: false
