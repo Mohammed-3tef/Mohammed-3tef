@@ -14,6 +14,6 @@ jobs:
       - uses: grace-raper/goodreads-widget@main
         with:
           # Replace this with your goodreads user id
-          goodreads_user_id: "${{ secrets.GOODREADS_USER_ID }}"
+          goodreads_user_id: "121646211"
           shelf: "programming"
           template: "- [$title]($url) by $author"
