@@ -1,4 +1,15 @@
-name: Programming Books I've Read
+name: Latest book list from a goodreads
+
+# Explicitly set permissions to minimum required
+permissions:
+  contents: write  # Needed to update README
+  actions: read    # Needed to read workflow
+
+# Prevent concurrent runs that could conflict
+concurrency:
+  group: goodreads-update
+  cancel-in-progress: true
+  
 on:
   schedule: # Run workflow automatically
     # This will make it run every hour
@@ -7,12 +18,26 @@ on:
   workflow_dispatch:
 jobs:
   update-readme-with-goodreads-books:
-    name: Update this repo's README with your programming books
+    name: Update this repo's README with what you're currently reading
     runs-on: ubuntu-latest
+    timeout-minutes: 10  # Prevent runaway processes
     steps:
-      - uses: actions/checkout@v2
-      - uses: grace-raper/goodreads-widget@main
+      - name: Checkout repository
+        uses: actions/checkout@v2
+        with:
+          # Use a token with limited scope if possible
+          token: ${{ github.token }}
+          
+      - name: Validate inputs
+        run: |
+          if [ -z "${{ secrets.GOODREADS_USER_ID }}" ]; then
+            echo "Error: GOODREADS_USER_ID secret is not set"
+            exit 1
+          fi
+          
+      - name: Update Goodreads profile
+        uses: lancefrench/goodreads-profile-workflow@main
         with:
           # Replace this with your goodreads user id
-          goodreads_user_id: "121646211"
+          goodreads_user_id: "${{ secrets.GOODREADS_USER_ID }}"
           shelf: "read"
