@@ -22,6 +22,9 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 10  # Prevent runaway processes
     steps:
+      - name: Debug shelf
+        run: echo "Shelf = programming, User = ${{ secrets.GOODREADS_USER_ID }}"
+    
       - name: Checkout repository
         uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd
         with:
@@ -41,3 +44,4 @@ jobs:
           # Replace this with your goodreads user id
           goodreads_user_id: "${{ secrets.GOODREADS_USER_ID }}"
           shelf: "programming"
+          template: "- [$title]($url) by $author"
