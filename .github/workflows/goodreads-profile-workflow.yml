@@ -1,4 +1,4 @@
-name: Programming Books I've Read
+name: Favourite Books I've Read
 
 # Explicitly set permissions to minimum required
 permissions:
@@ -18,7 +18,7 @@ on:
   workflow_dispatch:
 jobs:
   update-readme-with-goodreads-books:
-    name: Update README with my programming books
+    name: Update README with my favourite books
     runs-on: ubuntu-latest
     timeout-minutes: 10  # Prevent runaway processes
     steps:
@@ -43,8 +43,9 @@ jobs:
         with:
           # Replace this with your goodreads user id
           goodreads_user_id: "${{ secrets.GOODREADS_USER_ID }}"
-          shelf: "programming"
-          template: "- [$title]($url) by $author"
+          shelf: "read"
+          template: "- [$title]($url) by $author ($my_rating_stars)"
+          sort_by_fields: "my_rating_stars"
 
       - name: Commit and push changes
         run: |
