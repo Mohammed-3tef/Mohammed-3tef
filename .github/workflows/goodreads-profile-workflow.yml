@@ -1,4 +1,4 @@
-name: Programming Books I've Read
+name: My Favorite Books I've Read
 
 on:
   schedule:
@@ -18,10 +18,10 @@ jobs:
 
         with:
           goodreads_user_id: "121646211"
-          shelf: programming
-          max_books_count: 10
+          shelf: "read"
+          max_books_count: 5
           readme_file_path: "./README.md"
           output_only: false
           comment_tag_name: "GOODREADS-LIST"
-          template: "- [$title]($url) by $author"
-          sort_by_fields: ">pubDate"
+          template: "- [$title]($url) by $author ($my_rating_stars)"
+          sort_by_fields: ">my_rating_stars"
