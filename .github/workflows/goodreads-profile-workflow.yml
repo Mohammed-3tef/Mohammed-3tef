@@ -1,60 +1,69 @@
-name: Programmig Books I've Read
+name: Programming Books I've Read
 
-# Explicitly set permissions to minimum required
 permissions:
-  contents: write  # Needed to update README
-  actions: read    # Needed to read workflow
+  contents: write
+  actions: read
 
-# Prevent concurrent runs that could conflict
 concurrency:
   group: goodreads-update
   cancel-in-progress: true
-  
+
 on:
-  schedule: # Run workflow automatically
-    # This will make it run every hour
+  schedule:
     - cron: "0 * * * *"
-    # Run workflow manually (without waiting for the cron to be called), through the Github Actions Workflow page directly
   workflow_dispatch:
+
 jobs:
   update-readme-with-goodreads-books:
     name: Update README with my programming books
     runs-on: ubuntu-latest
-    timeout-minutes: 10  # Prevent runaway processes
+    timeout-minutes: 10
+
     steps:
+      # 1. Checkout FIRST (IMPORTANT FIX)
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      # 2. Debug info
       - name: Debug shelf
         run: echo "Shelf = programming, User = ${{ secrets.GOODREADS_USER_ID }}"
 
+      # 3. Safe README check
       - name: Show README before update
-        run: cat README.md
-    
-      - name: Checkout repository
-        uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd
-        with:
-          # Use a token with limited scope if possible
-          token: ${{ github.token }}
-          
+        run: |
+          if [ -f README.md ]; then
+            cat README.md
+          else
+            echo "README.md not found, it will be created by the action."
+          fi
+
+      # 4. Validate secret
       - name: Validate inputs
         run: |
           if [ -z "${{ secrets.GOODREADS_USER_ID }}" ]; then
             echo "Error: GOODREADS_USER_ID secret is not set"
             exit 1
           fi
-          
+
+      # 5. Goodreads update
       - name: Update Goodreads profile
         uses: lancefrench/goodreads-profile-workflow@c23d5d95bc54f7b983c6d879e1134d61429edbc7
         with:
-          # Replace this with your goodreads user id
           goodreads_user_id: "${{ secrets.GOODREADS_USER_ID }}"
-          max_books_count: 5
           shelf: "programming"
-          output_only: true
+          max_books_count: 5
+          output_only: false
           template: "- [$title]($url) by $author"
 
+      # 6. Commit changes safely
       - name: Commit and push changes
         run: |
           git config --global user.name "github-actions"
           git config --global user.email "github-actions@github.com"
+
           git add README.md
-          git commit -am "Update Goodreads books" || git commit --allow-empty -m "Force update"
+
+          git diff --cached --quiet && echo "No changes to commit" && exit 0
+
+          git commit -m "Update Goodreads books"
           git push
