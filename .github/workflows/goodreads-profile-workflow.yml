@@ -15,5 +15,4 @@ jobs:
         with:
           # Replace this with your goodreads user id
           goodreads_user_id: "121646211"
-          shelf: "programming"
-          template: "- [$title]($url) by $author"
+          shelf: "read"
