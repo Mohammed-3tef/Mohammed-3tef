@@ -1,58 +1,19 @@
 name: Programming Books I've Read
-
-permissions:
-  contents: write
-  actions: read
-
-concurrency:
-  group: goodreads-update
-  cancel-in-progress: true
-
 on:
-  schedule:
+  schedule: # Run workflow automatically
+    # This will make it run every hour
     - cron: "0 * * * *"
+    # Run workflow manually (without waiting for the cron to be called), through the Github Actions Workflow page directly
   workflow_dispatch:
-
 jobs:
   update-readme-with-goodreads-books:
+    name: Update this repo's README with your programming books
     runs-on: ubuntu-latest
-    timeout-minutes: 10
-
     steps:
-      - name: Checkout repository
-        uses: actions/checkout@v4
-
-      - name: Validate inputs
-        run: |
-          if [ -z "${{ secrets.GOODREADS_USER_ID }}" ]; then
-            echo "Missing GOODREADS_USER_ID"
-            exit 1
-          fi
-
-      - name: Show README safely
-        run: |
-          if [ -f README.md ]; then
-            cat README.md
-          else
-            echo "README.md not found"
-          fi
-
-      - name: Update Goodreads profile
-        uses: lancefrench/goodreads-profile-workflow@c23d5d95bc54f7b983c6d879e1134d61429edbc7
+      - uses: actions/checkout@v2
+      - uses: grace-raper/goodreads-widget@main
         with:
+          # Replace this with your goodreads user id
           goodreads_user_id: "${{ secrets.GOODREADS_USER_ID }}"
           shelf: "programming"
-          max_books_count: 5
           template: "- [$title]($url) by $author"
-
-      - name: Commit changes
-        run: |
-          git config --global user.name "github-actions"
-          git config --global user.email "github-actions@github.com"
-
-          git add README.md
-
-          git diff --cached --quiet && echo "No changes" && exit 0
-
-          git commit -m "Update Goodreads books"
-          git push
