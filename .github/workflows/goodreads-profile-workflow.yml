@@ -1,8 +1,8 @@
 name: Programming Books I've Read
 on:
   schedule: # Run workflow automatically
-    # This will make it run every hour
-    - cron: "0 * * * *"
+    # This will make it runs at (00:00, 03:00, 06:00, 09:00, 12:00, 15:00, 18:00 and 21:00)
+    - cron: "0 0,3,6,9,12,15,18,21 * * *"
     # Run workflow manually (without waiting for the cron to be called), through the Github Actions Workflow page directly
   workflow_dispatch:
 jobs:
@@ -10,9 +10,10 @@ jobs:
     name: Update README with my programming books
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
-      - uses: zwacky/goodreads-profile-workflow@main
+      - uses: actions/checkout@v4
+      - uses: zwacky/goodreads-profile-workflow@v1.2.4
         with:
           # Replace this with your goodreads user id
           goodreads_user_id: "121646211"
           shelf: "programming‎"
+          template: "- [$title]($url) by $author"
