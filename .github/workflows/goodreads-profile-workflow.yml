@@ -11,9 +11,9 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - uses: zwacky/goodreads-profile-workflow@v1.2.4
+      - uses: zwacky/goodreads-profile-workflow@main
         with:
           # Replace this with your goodreads user id
           goodreads_user_id: "121646211"
-          shelf: "programming"
+          shelf: "programmig"
           template: "- [$title]($url) by $author"
