@@ -45,3 +45,11 @@ jobs:
           goodreads_user_id: "${{ secrets.GOODREADS_USER_ID }}"
           shelf: "programming"
           template: "- [$title]($url) by $author"
+
+      - name: Commit and push changes
+        run: |
+          git config --global user.name "github-actions"
+          git config --global user.email "github-actions@github.com"
+          git add README.md
+          git commit -m "Update Goodreads books" || exit 0
+          git push
