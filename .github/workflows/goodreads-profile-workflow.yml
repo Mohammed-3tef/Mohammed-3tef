@@ -1,22 +1,43 @@
-name: My Favorite Books I've Read
+name: Programming Books I've Read
+
+# Explicitly set permissions to minimum required
+permissions:
+  contents: write  # Needed to update README
+  actions: read    # Needed to read workflow
+
+# Prevent concurrent runs that could conflict
+concurrency:
+  group: goodreads-update
+  cancel-in-progress: true
+  
 on:
   schedule: # Run workflow automatically
-    # This will make it runs (00:00, 03:00, 06:00, 09:00, 12:00, 15:00, 18:00 and 21:00)
-    - cron: "0 0,3,6,9,12,15,18,21 * * *"
+    # This will make it run every hour
+    - cron: "0 * * * *"
     # Run workflow manually (without waiting for the cron to be called), through the Github Actions Workflow page directly
   workflow_dispatch:
 jobs:
   update-readme-with-goodreads-books:
-    name: Update this repo's README with goodreads books
+    name: Update README with my programming books
     runs-on: ubuntu-latest
+    timeout-minutes: 10  # Prevent runaway processes
     steps:
-      - uses: actions/checkout@v4
-      - uses: zwacky/goodreads-profile-workflow@v1.2.4
+      - name: Checkout repository
+        uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd
         with:
-          # Replace this with your goodreads user id (go to "My Books" on goodreads to see it in the URL)
-          goodreads_user_id: "121646211"
-          shelf: "read"
-          comment_tag_name: "GOODREADS-READ-LIST"
-          max_books_count: "5"
-          template: "- [$title]($url) by $author ($my_rating_stars)"
-          sort_by_fields: ">my_rating_stars"
+          # Use a token with limited scope if possible
+          token: ${{ github.token }}
+          
+      - name: Validate inputs
+        run: |
+          if [ -z "${{ secrets.GOODREADS_USER_ID }}" ]; then
+            echo "Error: GOODREADS_USER_ID secret is not set"
+            exit 1
+          fi
+          
+      - name: Update Goodreads profile
+        uses: lancefrench/goodreads-profile-workflow@c23d5d95bc54f7b983c6d879e1134d61429edbc7
+        with:
+          # Replace this with your goodreads user id
+          goodreads_user_id: "${{ secrets.GOODREADS_USER_ID }}"
+          shelf: "programming"
