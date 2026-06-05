@@ -1,41 +1,56 @@
 <p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com/?font=Fira+Code&size=35&center=true&vCenter=true&width=700&height=90&duration=4500&lines=Hi+There!+👋;I'm+Mohammed+Atef+Abd+El+Kader!;Future+Software+Engineer+🚀" />
+  <img src="https://readme-typing-svg.herokuapp.com/?font=Fira+Code&size=35&center=true&vCenter=true&width=700&height=90&duration=4500&lines=Hi+There!;I'm+Mohammed+Atef+Abd+El+Kader!;Future+Software+Engineer" />
 </p>
+
+<h3 align="center">
+  Full Stack .NET Developer | Flutter Developer | Software Engineering Enthusiast
+</h3>
 
 ## About Me
 
 <img align="right" height="180" src="https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExdHZzNzNub3NvdGFkNzV1OTRpZnI2bmpiazRqdG42bTd3NjVxZXBsNyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/qgQUggAC3Pfv687qPC/giphy.gif"/>
 
 - Computer Science Student at **FCAI-CU**
-- Aspiring **Full Stack .NET Developer**
+- Aspiring **Full Stack .NET & Flutter Developer**
 - Passionate about building scalable and user-friendly applications
-- Strong interest in software engineering, databases, and clean architecture
+- Strong interest in Software Engineering, Databases, and Clean Architecture
 - Always learning new technologies and improving problem-solving skills
 
-### Technologies I Work With
+## Current Focus
 
-- **Backend:** C#, ASP.NET MVC, .NET
-- **Frontend:** HTML, CSS, JavaScript, jQuery, React
-- **Databases:** SQL Server, MySQL, SQLite
-- **Programming Languages:** C++, C#, Java, Python
-- **Tools:** Git, GitHub, Visual Studio, VS Code, Postman
-
-### Programming Books I've Read
-
-<!-- GOODREADS-LIST:START -->
-<!-- GOODREADS-LIST:END -->
+- ASP.NET Core & Full Stack .NET Development
+- Flutter Mobile Application Development
+- Software Architecture & Clean Code
+- AI Integration in Modern Applications
 
 ## Tech Stack
 
-<p align="left">
+<div align="left">
   <img src="https://skillicons.dev/icons?i=html,css,js,jquery,react,tailwind,bootstrap,dotnet,mysql,sqlite,cpp,cs,java,python,git,github,vscode,visualstudio,postman" />
-</p>
+</div>
 
-<p align="left">
+<!-- <div align="left">
+  <img src="https://skillicons.dev/icons?i=flutter,dart,firebase" />
+</div> -->
+
+<div align="left">
   <img src="https://raw.githubusercontent.com/tandpfun/skill-icons/main/icons/FastAPI.svg" height="48" />
   <img src="https://raw.githubusercontent.com/tandpfun/skill-icons/main/icons/Vercel-Dark.svg" height="48" />
   <img src="https://raw.githubusercontent.com/tandpfun/skill-icons/main/icons/Markdown-Dark.svg" height="48" />
-</p>
+</div>
+
+## Weekly Development Breakdown
+
+<!--START_SECTION:waka-->
+<!--END_SECTION:waka-->
+
+## Programming Books I've Read
+
+- [Clean Code: A Handbook of Agile Software Craftsmanship](https://www.goodreads.com/book/show/3735293-clean-code?ac=1&from_search=true&qid=7uhRliLh1u&rank=3)
+
+## Favorite Quote
+
+> Clean code always looks like it was written by someone who cares.
 
 ## Connect With Me
 
@@ -49,7 +64,7 @@
 ## GitHub Statistics
 
 <p align="center">
-  <img src="https://streak-stats.demolab.com?user=Mohammed-3tef&theme=dracula&hide_border=true" />
+  <img src="https://streak-stats.demolab.com?user=Mohammed-3tef&theme=tokyonight&hide_border=true" />
 </p>
 
 <p align="center">
