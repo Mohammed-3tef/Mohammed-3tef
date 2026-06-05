@@ -56,6 +56,9 @@ Git Config   0 secs                ░░░░░░░░░░░░░░░
 ## Programming Books I've Read
 
 <!-- GOODREADS-LIST:START --> 
+
+- [Clean Code: A Handbook of Agile Software Craftsmanship](https://www.goodreads.com/book/show/3735293-clean-code) By Robert C. Martin
+
 <!-- GOODREADS-LIST:END -->
 
 ## Favorite Quote
