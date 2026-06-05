@@ -24,7 +24,7 @@ jobs:
         uses: lancefrench/goodreads-profile-workflow@c23d5d95bc54f7b983c6d879e1134d61429edbc7
         with:
           goodreads_user_id: ${{ secrets.GOODREADS_USER_ID }}
-          shelf: "programming"
+          shelf: "favorites"
 
       - name: Commit changes
         uses: stefanzweifel/git-auto-commit-action@v5
