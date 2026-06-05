@@ -1,42 +1,32 @@
 name: Programming Books I've Read
 
-# Explicitly set permissions to minimum required
 permissions:
-  contents: write  # Needed to update README
-  actions: read    # Needed to read workflow
+  contents: write
 
-# Prevent concurrent runs that could conflict
 concurrency:
   group: goodreads-update
   cancel-in-progress: true
-  
+
 on:
-  schedule: # Run workflow automatically
+  schedule:
     - cron: "0 */12 * * *"
-    # Run workflow manually (without waiting for the cron to be called), through the Github Actions Workflow page directly
   workflow_dispatch:
+
 jobs:
   update-readme-with-goodreads-books:
-    name: Update this repo's README with your programming books
     runs-on: ubuntu-latest
-    timeout-minutes: 10  # Prevent runaway processes
+
     steps:
       - name: Checkout repository
-        uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd
-        with:
-          # Use a token with limited scope if possible
-          token: ${{ github.token }}
-          
-      - name: Validate inputs
-        run: |
-          if [ -z "${{ secrets.GOODREADS_USER_ID }}" ]; then
-            echo "Error: GOODREADS_USER_ID secret is not set"
-            exit 1
-          fi
-          
+        uses: actions/checkout@v4
+
       - name: Update Goodreads profile
-        uses: lancefrench/goodreads-profile-workflow@c23d5d95bc54f7b983c6d879e1134d61429edbc7
+        uses: lancefrench/goodreads-profile-workflow@v1.0.0
         with:
-          # Replace this with your goodreads user id
-          goodreads_user_id: "${{ secrets.GOODREADS_USER_ID }}"
-          shelf: "programming"
+          goodreads_user_id: ${{ secrets.GOODREADS_USER_ID }}
+          shelf: programming
+
+      - name: Commit changes
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "Update Goodreads books"
