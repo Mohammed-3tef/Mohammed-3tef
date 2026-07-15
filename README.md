@@ -44,11 +44,11 @@
 <!--START_SECTION:waka-->
 
 ```txt
-Markdown                           3 hrs 58 mins         ███████████████████▓░░░░░   79.14 %
-SQL                                20 mins               █▓░░░░░░░░░░░░░░░░░░░░░░░   06.77 %
-JSON                               16 mins               █▒░░░░░░░░░░░░░░░░░░░░░░░   05.38 %
-XML                                8 mins                ▓░░░░░░░░░░░░░░░░░░░░░░░░   02.68 %
-Microsoft Visual Studio Solution   7 mins                ▓░░░░░░░░░░░░░░░░░░░░░░░░   02.61 %
+Markdown                           4 hrs 7 mins          ██████████████████▒░░░░░░   73.91 %
+SQL                                45 mins               ███▒░░░░░░░░░░░░░░░░░░░░░   13.43 %
+JSON                               16 mins               █▒░░░░░░░░░░░░░░░░░░░░░░░   04.83 %
+XML                                8 mins                ▓░░░░░░░░░░░░░░░░░░░░░░░░   02.41 %
+Microsoft Visual Studio Solution   7 mins                ▓░░░░░░░░░░░░░░░░░░░░░░░░   02.35 %
 ```
 
 <!--END_SECTION:waka-->
