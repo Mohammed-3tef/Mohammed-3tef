@@ -44,11 +44,7 @@
 <!--START_SECTION:waka-->
 
 ```txt
-Dart              1 hr 57 mins          █████████████████████░░░░   84.62 %
-Java Properties   13 mins               ██▒░░░░░░░░░░░░░░░░░░░░░░   09.97 %
-Kotlin            4 mins                ▓░░░░░░░░░░░░░░░░░░░░░░░░   03.26 %
-Other             1 min                 ▒░░░░░░░░░░░░░░░░░░░░░░░░   01.25 %
-YAML              1 min                 ▒░░░░░░░░░░░░░░░░░░░░░░░░   00.80 %
+No activity tracked
 ```
 
 <!--END_SECTION:waka-->
