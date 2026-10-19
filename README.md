@@ -1,27 +1,41 @@
+<div align="center">
+  <h1>Hi there, I'm Mohammed Atef Abd Elkader 👋</h1>
+</div>
+
 <p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com/?font=Fira+Code&size=35&center=true&vCenter=true&width=700&height=90&duration=4500&lines=Hi+There!;I'm+Mohammed+Atef+Abd+El+Kader!;Future+Software+Engineer" />
+  <img src="https://readme-typing-svg.herokuapp.com/?font=Fira+Code&size=28&center=true&vCenter=true&width=750&height=70&duration=4000&pause=1000&lines=Junior+.NET+Backend+Developer;Software+Engineering+Enthusiast;Building+Clean+and+Scalable+Applications" alt="Typing SVG" />
 </p>
 
-<h3 align="center">
-  Full Stack .NET Developer | Flutter Developer | Software Engineering Enthusiast
-</h3>
+<p align="center">
+  <a href="https://github.com/Mohammed-3tef">
+    <img src="https://komarev.com/ghpvc/?username=Mohammed-3tef&style=flat&color=008fc8" alt="Profile Views" />
+  </a>
+  <a href="https://user-badge.committers.top/egypt/Mohammed-3tef">
+    <img src="https://user-badge.committers.top/egypt/Mohammed-3tef.svg" alt="Egypt Committers Ranking" />
+  </a>
+</p>
 
 ## About Me
 
-<img align="right" height="180" src="https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExdHZzNzNub3NvdGFkNzV1OTRpZnI2bmpiazRqdG42bTd3NjVxZXBsNyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/qgQUggAC3Pfv687qPC/giphy.gif"/>
+<img align="right" height="170" src="https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExdHZzNzNub3NvdGFkNzV1OTRpZnI2bmpiazRqdG42bTd3NjVxZXBsNyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/qgQUggAC3Pfv687qPC/giphy.gif" alt="Developer working at a computer" />
 
-- Computer Science Student at **FCAI-CU**
-- Aspiring **Full Stack .NET & Flutter Developer**
-- Passionate about building scalable and user-friendly applications
-- Strong interest in Software Engineering, Databases, and Clean Architecture
-- Always learning new technologies and improving problem-solving skills
+I'm a Computer Science student at **FCAI, Cairo University**, passionate about software development and building reliable, maintainable applications.
+
+My primary focus is **.NET backend development**, with an interest in software architecture, database design, and writing clean, efficient code.
+
+- 🎓 Computer Science student at FCAI-CU
+- 💻 Focused on C# and ASP.NET Core
+- 🏗️ Interested in Clean Architecture, SOLID principles, and design patterns
+- 🗄️ Enjoy working with relational databases and data-driven applications
+- 📚 Continuously learning and improving my problem-solving skills
 
 ## Current Focus
 
-- ASP.NET Core & Full Stack .NET Development
-- Flutter Mobile Application Development
-- Software Architecture & Clean Code
-- AI Integration in Modern Applications
+- Developing backend applications with ASP.NET Core
+- Building RESTful APIs and working with Entity Framework Core
+- Applying SOLID principles and clean coding practices
+- Improving database design and SQL query optimization
+- Exploring practical AI integration in software applications
 
 ## Tech Stack
 
