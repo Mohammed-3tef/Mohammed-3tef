@@ -58,9 +58,11 @@ My primary focus is **.NET backend development**, with an interest in software a
 <!--START_SECTION:waka-->
 
 ```txt
-SQL          13 mins               ██████████████░░░░░░░░░░░   56.61 %
-Git Config   9 mins                ██████████░░░░░░░░░░░░░░░   40.18 %
-Markdown     0 secs                ▓░░░░░░░░░░░░░░░░░░░░░░░░   03.21 %
+JavaScript   37 mins               ██████████▓░░░░░░░░░░░░░░   42.41 %
+CSS          17 mins               █████░░░░░░░░░░░░░░░░░░░░   19.58 %
+SQL          13 mins               ████░░░░░░░░░░░░░░░░░░░░░   15.42 %
+Git Config   9 mins                ██▓░░░░░░░░░░░░░░░░░░░░░░   10.49 %
+Python       8 mins                ██▒░░░░░░░░░░░░░░░░░░░░░░   09.76 %
 ```
 
 <!--END_SECTION:waka-->
