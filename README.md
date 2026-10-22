@@ -13,6 +13,9 @@
   <a href="https://user-badge.committers.top/egypt/Mohammed-3tef">
     <img src="https://user-badge.committers.top/egypt/Mohammed-3tef.svg" alt="Egypt Committers Ranking" />
   </a>
+  <a href="https://user-badge.committers.top/egypt_public/Mohammed-3tef">
+    <img src="https://user-badge.committers.top/egypt_public/Mohammed-3tef.svg" alt="Egypt Committers Ranking" />
+  </a>
 </p>
 
 ## About Me
