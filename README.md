@@ -61,11 +61,11 @@ My primary focus is **.NET backend development**, with an interest in software a
 <!--START_SECTION:waka-->
 
 ```txt
-JavaScript                         2 hrs 34 mins         █████████████░░░░░░░░░░░░   51.77 %
-CSS                                39 mins               ███▒░░░░░░░░░░░░░░░░░░░░░   13.30 %
-JSON                               27 mins               ██▒░░░░░░░░░░░░░░░░░░░░░░   09.31 %
-Other                              20 mins               █▓░░░░░░░░░░░░░░░░░░░░░░░   06.75 %
-HTML                               20 mins               █▓░░░░░░░░░░░░░░░░░░░░░░░   06.74 %
+JavaScript                         2 hrs 51 mins         ██████████▒░░░░░░░░░░░░░░   41.30 %
+HTML                               51 mins               ███░░░░░░░░░░░░░░░░░░░░░░   12.38 %
+CSS                                50 mins               ███░░░░░░░░░░░░░░░░░░░░░░   12.12 %
+JSON                               47 mins               ███░░░░░░░░░░░░░░░░░░░░░░   11.43 %
+Markdown                           34 mins               ██░░░░░░░░░░░░░░░░░░░░░░░   08.38 %
 ```
 
 <!--END_SECTION:waka-->
